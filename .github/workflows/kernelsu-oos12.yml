@@ -41,7 +41,7 @@ jobs:
         sudo apt-get update -y 
         sudo apt install gcc-aarch64-linux-gnu -y
         sudo apt install gcc-arm-linux-gnueabi -y
-        sudo apt install binutils make python3 libssl-dev build-essential bc  bison flex unzip libssl-dev ca-certificates xz-utils mkbootimg cpio device-tree-compiler git git-lfs -y
+        sudo apt install binutils make python3 libssl-dev build-essential bc  bison flex unzip libssl-dev ca-certificates xz-utils mkbootimg cpio device-tree-compiler git git-lfs ccache -y
         git clone https://github.com/grm34/proton-clang -b ZenMaxBuilder clang --depth=1
         git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 aarch64 --depth=1
         git clone https://github.com/snowwolf725/AnyKernel3 -b oneplus7 --depth=1
